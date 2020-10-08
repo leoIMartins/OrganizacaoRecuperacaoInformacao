@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;BuscaBinaria.java&apos; to &apos;ORI/src/materia&apos;&#x0D;&#x0A;- Original project: &apos;BuscaBinaria&apos;&#x0D;&#x0A;- Destination element: &apos;ORI/src/materia&apos;&#x0D;&#x0A;- Original element: &apos;BuscaBinaria.java&apos;" description="Copy compilation unit" destination="=ORI/src&lt;materia" element1="/src&lt;{BuscaBinaria.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1601597556746" units="1" version="1.0"/>
+</session>

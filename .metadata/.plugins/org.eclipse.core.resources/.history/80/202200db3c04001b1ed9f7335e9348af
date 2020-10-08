@@ -1,0 +1,20 @@
+package materia;
+
+public class BubbleSort {
+
+	public void ordenar() {
+		boolean troca = true;
+		while(troca) {
+			troca = false;
+			for(int i = 0;i < vetB.length - 1;i ++) {
+				if(vetB[i] > vetB[i+1]) {
+					auxB = vetB[i];
+					vetB[i] = vetB[i+1];
+					vetB[i+1] = auxB;
+					troca = true;
+					trocasB ++;
+				}
+			}
+		}
+	}
+}

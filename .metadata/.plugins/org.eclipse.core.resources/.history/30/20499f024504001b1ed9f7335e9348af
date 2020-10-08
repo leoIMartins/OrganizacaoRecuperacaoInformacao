@@ -1,0 +1,39 @@
+package materia;
+
+public class Teste {
+
+	public static void main(String[] args) {
+		int tamanho = 10, maiorNumero = 20, target = 15;
+		int[] vetA = new int[tamanho];
+		int[] vetB = new int[tamanho];
+		int[] vetC = new int[tamanho];
+		VetorAleatorio vetor = new VetorAleatorio();
+		BubbleSort bubble = new BubbleSort();
+		SelectionSort selection = new SelectionSort();
+		BuscaSequencial buscaSequencial = new BuscaSequencial();
+		BuscaBinaria buscaBinaria = new BuscaBinaria();
+		
+		vetA = vetor.gerarVetorAleatorio(tamanho, maiorNumero);
+		
+		for(int i = 0; i < vetA.length; i++) {
+        	vetB[i] = vetA[i];
+        	vetC[i] = vetA[i];
+		}
+		
+		for(int i = 0; i < vetA.length; i++){
+			System.out.print(vetA[i]);
+			if(i < vetA.length - 1)
+				System.out.print(", ");
+		}
+		bubble.ordenar(vetA);
+		selection.ordenar(vetB);
+		buscaSequencial.buscaSequencial(vetC, target);
+		int buscaB = buscaBinaria.buscaBinaria(vetA, 0, vetB.length, target);
+		System.out.println("\nBusca binária");
+		if(buscaB != -1)
+			System.out.println("Target encontrado na posição " + buscaB + " do vetor ordenado");
+		else
+			System.out.println("Target não encontrado no vetor ordenado");
+	}
+
+}

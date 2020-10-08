@@ -1,0 +1,6 @@
+package materia;
+
+public class SelectionSort {
+
+	public void ordenar(int vet[])
+}

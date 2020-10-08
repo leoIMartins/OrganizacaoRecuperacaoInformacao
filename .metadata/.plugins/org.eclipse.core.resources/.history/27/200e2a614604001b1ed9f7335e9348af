@@ -1,0 +1,7 @@
+package materia;
+
+public class InsertionSort {
+	public void ordenar(int vet[]) {
+		
+	}
+}

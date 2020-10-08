@@ -1,0 +1,2 @@
+No projeto "ORI" constam todos os métodos de ordenação, buscas e geração de vetor aleatório.
+Existe uma classe principal de teste, e as demais possuem apenas a implementação de um método específico, podendo elas serem instanciadas na classe de teste.

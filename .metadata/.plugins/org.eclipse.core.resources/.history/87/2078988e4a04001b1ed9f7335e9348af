@@ -1,0 +1,14 @@
+package materia;
+
+public class InsertionSort {
+	public void ordenar(int vet[]) {
+		int key;
+		for(int i = 1;i < vet.length - 1;i ++) {
+			key = vet[i];
+			int j = i - 1;
+			while(){
+				
+			}
+		}
+	}
+}

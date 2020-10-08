@@ -1,0 +1,26 @@
+package materia;
+
+public class Teste {
+
+	public static void main(String[] args) {
+
+		VetorAleatorio vetor = new VetorAleatorio();
+		BubbleSort bubble = new BubbleSort();
+		SelectionSort selection = new SelectionSort();
+		
+		vetA = vetor.gerarVetorAleatorio(10, 20);
+		
+		for(int i = 0; i < vetA.length; i++) {
+        	vetB[i] = vetA[i];
+		}
+		
+		for(int i = 0; i < vetA.length; i++){
+			System.out.print(vetA[i]);
+			if(i < vetA.length - 1)
+				System.out.print(", ");
+		}
+		bubble.ordenar(vetA);
+		selection.ordenar(vetB);
+	}
+
+}

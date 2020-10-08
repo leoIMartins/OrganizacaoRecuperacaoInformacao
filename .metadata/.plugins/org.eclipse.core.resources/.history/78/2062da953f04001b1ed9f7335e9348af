@@ -1,0 +1,22 @@
+package materia;
+
+public class SelectionSort {
+
+	public void ordenar(int vet[]) {
+		int aux;
+		long trocas = 0;
+		
+		for(int i = 0;i < vet.length - 1;i ++) {
+			int menor = i;
+			for(int j = i+1;j < vet.length;j ++) {
+				if(vet[j] < vet[menor]) {
+					menor = j;
+					trocas ++;
+				}
+			}
+			aux = vet[menor]; 
+			vet[menor] = vet[i];
+			vet[i] = aux;
+		}
+	}
+}
