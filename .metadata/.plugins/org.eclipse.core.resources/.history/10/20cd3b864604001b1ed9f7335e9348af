@@ -1,9 +1,0 @@
-package materia;
-
-public class InsertionSort {
-	public void ordenar(int vet[]) {
-		for(int j = 1;j < vet.length;j ++) {
-			
-		}
-	}
-}

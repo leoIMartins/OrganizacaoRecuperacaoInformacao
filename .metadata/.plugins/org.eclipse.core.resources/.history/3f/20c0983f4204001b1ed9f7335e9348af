@@ -1,5 +1,0 @@
-package materia;
-
-public class BuscaSequencial {
-	public void buscaSequencial(int[] vet, int target)
-}

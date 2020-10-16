@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="BuscaBinaria"/>
-<fullyQualifiedTypeName name="materia.VetorAleatorio"/>
 <fullyQualifiedTypeName name="materia.BubbleSort"/>
 <fullyQualifiedTypeName name="materia.SelectionSort"/>
 <fullyQualifiedTypeName name="materia.BuscaSequencial"/>
 <fullyQualifiedTypeName name="materia.BuscaBinaria"/>
 <fullyQualifiedTypeName name="materia.InsertionSort"/>
+<fullyQualifiedTypeName name="materia.VetorAleatorio"/>
+<fullyQualifiedTypeName name="materia.MergeSort"/>
 </qualifiedTypeNameHistroy>

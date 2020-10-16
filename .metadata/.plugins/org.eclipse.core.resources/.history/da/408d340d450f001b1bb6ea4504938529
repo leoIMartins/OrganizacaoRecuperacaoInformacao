@@ -1,0 +1,25 @@
+package materia;
+
+public class MergeSortTeste {
+
+	public static void main(String[] args) {
+		int tamanho = 50;
+		int[] numeros = new int[tamanho];
+		
+		VetorAleatorio vet = new VetorAleatorio();
+		MergeSort mergeSort = new MergeSort();
+		
+		// Cria um vetor de inteiros e atribui os valores.
+		//int[] numeros = { 3, 9, 8, 7, 6, 2, 1 };
+		numeros = vet.gerarVetorAleatorio(tamanho, 1000);
+		
+		// Chama o método que vai executar o algoritmo do Merge Sort.
+		mergeSort.mergeSort(numeros.length, numeros);
+
+		// Imprime os valores do vetor após ser ordenados pelo Merge Sort.
+		for (int x : numeros) {
+			System.out.print(x + " ");
+		}
+	}
+
+}

@@ -3,12 +3,12 @@ package materia;
 public class Teste {
 
 	public static void main(String[] args) {
-		long tempoInicial = System.currentTimeMillis();
-		int tamanho = 1000, maiorNumero = 100, target = 15;
+		int tamanho = 10, maiorNumero = 1000, target = 15;
 		int[] vetA = new int[tamanho];
 		int[] vetB = new int[tamanho];
 		int[] vetC = new int[tamanho];
 		int[] vetD = new int[tamanho];
+		int[] vetE = new int[tamanho];
 		VetorAleatorio vetor = new VetorAleatorio();
 		BubbleSort bubble = new BubbleSort();
 		SelectionSort selection = new SelectionSort();
@@ -22,6 +22,7 @@ public class Teste {
         	vetB[i] = vetA[i];
         	vetC[i] = vetA[i];
         	vetD[i] = vetA[i];
+        	vetE[i] = vetA[i];
 		}
 		
 		for(int i = 0; i < vetA.length; i++){
@@ -44,9 +45,9 @@ public class Teste {
 			System.out.print("Target não encontrado no vetor ordenado");
 		
 		insertionSort.ordenar(vetD);
-		long tempoFinal = System.currentTimeMillis();
 		
-		System.out.println("\nTempo total: " + (tempoFinal - tempoInicial));
+		MergeSort.mergeSort(tamanho, vetE);
+		
 	}
 
 }
