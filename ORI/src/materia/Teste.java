@@ -3,12 +3,14 @@ package materia;
 public class Teste {
 
 	public static void main(String[] args) {
-		int tamanho = 10, maiorNumero = 1000, target = 15;
+		int tamanho = 10, maiorNumero = 200, target = 15;
 		int[] vetA = new int[tamanho];
 		int[] vetB = new int[tamanho];
 		int[] vetC = new int[tamanho];
 		int[] vetD = new int[tamanho];
 		int[] vetE = new int[tamanho];
+		int[] vetF = new int[tamanho];
+		
 		VetorAleatorio vetor = new VetorAleatorio();
 		BubbleSort bubble = new BubbleSort();
 		SelectionSort selection = new SelectionSort();
@@ -23,6 +25,7 @@ public class Teste {
         	vetC[i] = vetA[i];
         	vetD[i] = vetA[i];
         	vetE[i] = vetA[i];
+        	vetF[i] = vetA[i];
 		}
 		
 		for(int i = 0; i < vetA.length; i++){
@@ -48,6 +51,9 @@ public class Teste {
 		
 		MergeSort.mergeSort(tamanho, vetE);
 		
+		System.out.println("\n\nOrdenação do vetor com QuickSort");
+		QuickSort.quickSort(vetF, 0, vetF.length-1);
+		QuickSort.exibirVetorOrdenado(vetF);
 	}
 
 }

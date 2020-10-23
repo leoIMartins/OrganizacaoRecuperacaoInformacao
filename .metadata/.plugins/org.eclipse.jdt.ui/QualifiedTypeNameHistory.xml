@@ -8,4 +8,5 @@
 <fullyQualifiedTypeName name="materia.InsertionSort"/>
 <fullyQualifiedTypeName name="materia.VetorAleatorio"/>
 <fullyQualifiedTypeName name="materia.MergeSort"/>
+<fullyQualifiedTypeName name="materia.QuickSort"/>
 </qualifiedTypeNameHistroy>
