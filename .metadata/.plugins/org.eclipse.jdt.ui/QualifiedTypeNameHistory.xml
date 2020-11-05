@@ -9,4 +9,5 @@
 <fullyQualifiedTypeName name="materia.VetorAleatorio"/>
 <fullyQualifiedTypeName name="materia.MergeSort"/>
 <fullyQualifiedTypeName name="materia.QuickSort"/>
+<fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
 </qualifiedTypeNameHistroy>
