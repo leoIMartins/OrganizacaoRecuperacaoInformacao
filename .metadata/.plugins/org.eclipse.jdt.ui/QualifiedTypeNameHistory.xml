@@ -10,4 +10,6 @@
 <fullyQualifiedTypeName name="materia.MergeSort"/>
 <fullyQualifiedTypeName name="materia.QuickSort"/>
 <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+<fullyQualifiedTypeName name="arvore.Arvore"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
 </qualifiedTypeNameHistroy>
